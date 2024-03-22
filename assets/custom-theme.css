@@ -399,3 +399,115 @@ body {
 }
 
 /* END IMAGE WITH TEXT */
+/* ---------------------------------- */
+
+.multicolumn.background-primary .multicolumn-card {
+    background: #ffffff !important;
+    box-shadow: 0 13px 19px #00000012;
+    padding-bottom: 19px;
+    border-radius: 20px !important;
+    overflow: hidden;
+}
+
+.multicolumn .title-wrapper-with-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 110px;
+    padding: 0 !important;
+}
+
+.multicolumn .title-wrapper-with-link .multicolumn__subtitle {
+    font-weight: 700;
+    color: var(--color-primary);
+    line-height: 20px;
+    letter-spacing: -0.01em;
+}
+
+.multicolumn .title-wrapper-with-link .title {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-top: 2px;
+}
+
+.multicolumn .title-wrapper-with-link p {
+    color: var(--second-text-color);
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    margin: 0 !important;
+}
+
+.multicolumn-list {
+    row-gap: 30px;
+}
+
+.multicolumn-card-spacing {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.multicolumn-card__info {
+    padding-bottom: 0 !important;
+}
+
+.multicolumn .multicolumn-list h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-top: 6px;
+    letter-spacing: -0.01em;
+}
+
+.multicolumn .multicolumn-list .rte {
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--second-text-color);
+    letter-spacing: -0.02em;
+}
+
+.multicolumn .list-social {
+    justify-content: center;
+}
+
+.list-social .list-social__item .icon {
+    width: auto;
+    height: auto;
+}
+
+.multicolumn .list-social .list-social__link {
+    margin-top: 0;
+}
+
+.list-social .list-social__link {
+    color: #96bb7c;
+    padding: 10px;
+    height: 44px;
+}
+
+.multicolumn .page-width {
+    padding-left: var(--padding-container) !important;
+    padding-right: var(--padding-container) !important;
+}
+
+.header__search,
+.header__icon--cart {
+    display: none !important;
+}
+
+@media screen and (max-width: 749px) {
+    .multicolumn-list {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 551px) {
+    .multicolumn-list .grid__item {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+/* END MULTICOLUMN */
